@@ -8,4 +8,4 @@ git commit -m "updated readme file, initial commit" 		#save the updates with a c
 git push origin main/master					#upload local repository content to a remote repository
 
 
-
+git pull							#pull updates from github respository
