@@ -9,3 +9,9 @@ git push origin main/master					#upload local repository content to a remote rep
 
 
 git pull							#pull updates from github respository
+
+
+Ansible---
+
+ansible all --key-file ~/.ssh/[sshkey] -i [inventory] -m ping
+ #runs ansible againt all hosts, using the specified keyfile, -i inventory file(contains hosts), -m run module ping 
