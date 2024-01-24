@@ -18,3 +18,13 @@ nano Inventory                                                 #create an invent
 
 ansible all --key-file ~/.ssh/[sshkey] -i [inventory] -m ping
  #runs ansible againt all hosts, using the specified keyfile, -i inventory file(contains hosts), -m run module ping 
+
+nano ansible.cfg                                               #create a configuration file within the ansible directory
+
+#ansible.cfg file content - set defults such as key file(private) and inventory (remote hosts)
+    [defaults]
+    inventory = Inventory
+    private_key_file = ~/.ssh/id_ansible
+
+
+
