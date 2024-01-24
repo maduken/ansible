@@ -27,4 +27,11 @@ nano ansible.cfg                                               #create a configu
     private_key_file = ~/.ssh/id_ansible
 
 
+ansible all --list-hosts
+#lists all hosts which will be controlled by ansible 
 
+ansible all -m gather_facts 
+#gather information about remote hosts 
+
+ansible all -m gather_facts --limit [ip address] 
+#gather information about a singular host 
