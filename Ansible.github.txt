@@ -13,5 +13,8 @@ git pull							#pull updates from github respository
 
 Ansible---
 
+sudo apt install ansible                                       #install ansible 
+nano Inventory                                                 #create an inventory, that contains the ip address of remote hosts 
+
 ansible all --key-file ~/.ssh/[sshkey] -i [inventory] -m ping
  #runs ansible againt all hosts, using the specified keyfile, -i inventory file(contains hosts), -m run module ping 
