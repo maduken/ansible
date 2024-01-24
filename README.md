@@ -2,6 +2,8 @@
 
 ansible project - Start = 23JAN24 
 
+#Create NAT Server 
+
 #Create SSH server
  > implement ssh key authentication
 
