@@ -1,12 +1,5 @@
-all:
-hosts:
-  Host Number 1:
-    ansible_host:192.168.100.9
-    ansible_user:User1
-    ansible_password:!QAZ2wsx#EDC4rfv%TGB
-    ansible_become_pass:!QAZ2wsx#EDC4rfv%TGB 
-  Host Number 2:
-    ansible_host:192.168.100.10
-    ansible_user:user3
-    ansible_password:!QAZ2wsx#EDC4rfv%TGB
-    ansible_become_pass:!QAZ2wsx#EDC4rfv%TGB	
+192.168.100.9
+192.168.100.10
+
+
+	
