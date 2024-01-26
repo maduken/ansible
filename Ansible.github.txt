@@ -2,6 +2,10 @@
 
 nano README.md
 
+git config --global user.name " "
+
+git config --global user.email " "
+
 git diff README.md					
 #helps you see, compare, and understand changes in your project.
 
