@@ -10,7 +10,7 @@ git add README.md
 
 or 
 
-git add -all
+git add --all
 #add the all files or changes to the repository
 
 git status							
