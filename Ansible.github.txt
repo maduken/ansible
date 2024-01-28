@@ -65,5 +65,8 @@ Running elevated ad-hoc Commands
 ansible all -m apt -a update_cahce=ture --become --ask-become-pass 
 #equivalent of running sudo apt update 
 
+ansible all -m apt -a name=vim-nox --become --ask-become-pass
+#tnstall a package via the apt module
+
 
 
