@@ -77,6 +77,8 @@ ansible all -m apt -a upgrade=dist --become --ask-become-passxx
 ansible-playbook --ask-become-pass install_apache.yml
 #run the playbook 
   > use ansible all -m gather_facts , to craft 'when' conditionals
-  > ex: when: ansible_distribution  == "Ubuntu" or when: ansible_distribution in ["Ubuntu", "Debian"] 
+   > when: ansible_distribution  == "Ubuntu" or 
+   > when: ansible_distribution in ["Ubuntu", "Debian"] 
+   >  when: ansible_distribution  == "Ubuntu" and ansible_distribution_version == "8.2"
 
 
